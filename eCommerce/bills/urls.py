@@ -21,7 +21,6 @@ order_list = OrderViewSet.as_view({
 
 order_detail = OrderViewSet.as_view({
     "get": "retrieve",
-    "put": "update",
     "delete": "destroy"
 })
 
@@ -32,7 +31,6 @@ orderDetail_list = OrderDetailsViewSet.as_view({
 
 orderDetail_detail = OrderDetailsViewSet.as_view({
     "get": "retrieve",
-    "put": "update",
     "delete": "destroy"
 })
 
